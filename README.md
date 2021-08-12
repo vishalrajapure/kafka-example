@@ -2,8 +2,8 @@ This repo holds details of Kafka
 
 Basic steps to run Kafka Server on local:
 
-Download server files from : https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz
-Unzip it. rename dir to kafka and copy to C drive for convinience.
+-Download server files from : https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz
+-Unzip it. rename dir to kafka and copy to C drive for convinience.
 Go to /config/server.properties and update log dir to : log.dirs=c:/kafka/kafka-logs
 Go to /config/zookeeper.properties and update dataDir to : dataDir=c:/kafka/zookeeper-data
 Thats it.
